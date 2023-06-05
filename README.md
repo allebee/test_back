@@ -1,6 +1,6 @@
 # test_backend
 
-test_backend - this is text exercise I was given for the job.
+test_backend - this is тестовое задание I was given for the job.
 Download the yolov3 folder with weights file from the following Google Drive link https://drive.google.com/drive/folders/18bIadvuOmfg0WIUSdf-mfYMlD4-2a9Cq?usp=sharing to the project.
 
 To set up the project, follow these steps:
