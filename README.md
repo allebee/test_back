@@ -47,5 +47,3 @@ Returns: pil_image (PIL.Image), weapon (str)
 
 Database: SQLite database with table 'uploaded_images', columns: id (INTEGER), upload_time (DATETIME), image_name (VARCHAR), status (VARCHAR).
 
-
-![Alt Text](image_url_or_path](https://drive.google.com/file/d/1bRbymjFxAyzfLJYcYXJuaSJ5nav7H6Zp/view?usp=sharing)
