@@ -26,3 +26,23 @@ On Windows: Run ```venv\Scripts\activate.bat```
 
 Run ```uvicorn main:app --reload``` to start the server.
 Access the application by navigating to http://localhost:8000 in your web browser.
+
+
+Endpoints:
+
+Home: URL: /, Method: GET, Description: Displays home page with image upload form.
+
+
+Flip Image: URL: /flip_image, Method: POST, Description: Accepts uploaded image, detects objects, flips image if weapons detected, and returns flipped image.
+
+
+Helper Function:
+
+detect_and_crop_objects(image): Detects objects in provided image using YOLOv3 object detection model, crops objects.
+
+Parameters: image (PIL.Image)
+
+Returns: pil_image (PIL.Image), weapon (str)
+
+
+Database: SQLite database with table 'uploaded_images', columns: id (INTEGER), upload_time (DATETIME), image_name (VARCHAR), status (VARCHAR).
