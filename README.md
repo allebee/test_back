@@ -27,6 +27,10 @@ On Windows: Run ```venv\Scripts\activate.bat```
 Run ```uvicorn main:app --reload``` to start the server.
 Access the application by navigating to http://localhost:8000 in your web browser.
 
+6. To Run tests:
+
+Run ```pytest test.py```
+
 
 Endpoints:
 
