@@ -47,3 +47,4 @@ Returns: pil_image (PIL.Image), weapon (str)
 
 Database: SQLite database with table 'uploaded_images', columns: id (INTEGER), upload_time (DATETIME), image_name (VARCHAR), status (VARCHAR).
 
+![Alt Text](https://github.com/allebee/test_back/blob/main/process_photo1.png)
